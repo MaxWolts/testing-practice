@@ -47,7 +47,7 @@ jobs:
   e2e:
     runs-on: ubuntu-latest
     container:
-    image: node:14
+      image: node:14
 
     services:
       mongo-e2e:
